@@ -1,0 +1,5 @@
+# Flagstone
+
+Flagstone is a rewrite of the dojo-basic intentionally vulnerable web app that has been using for application security training forever. It uses more current technologies, but aims to maintain a significant amount of similarity to the original, such as using server-rendered HTML for pages. While new development more often favors React/Vue SPAs these days, server-rendered apps such as those using ASP.Net webforms are still very much around. A resurgence of interest in an older approach, with technologies like HTMX, have also come about, although these currently look more like a cult following than an industry shift. Nevertheless, this application structure, while older, remains relevant and it similifies the approach in a way that is useful for those unfamiliar to appsec, looking to build a foundation, by remove the addtional concerns of decoupled JSON-based web services and protobuffers and GraphQL and TRPC.
+
+There's a popular approach in software development to start simple and iterate quickly. Flagstone aims to be that first simple step.
